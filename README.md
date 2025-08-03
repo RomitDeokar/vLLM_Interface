@@ -26,16 +26,13 @@ This repository contains code and configuration to run large language models (LL
    cd vLLM-Interface-Runner
    
 2. Install dependencies:
-   '''bash
+   ```bash
    pip install -r requirements.txt
-   '''
 
 4. Start the vLLM server:
-   '''bash
+   ```bash
    vllm serve <model-name> --dtype auto
-   '''
 
 5. Run the Jupyter notebook:
-   '''bash
+   ```bash
    jupyter notebook serve_model.ipynb
-   '''
