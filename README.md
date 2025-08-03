@@ -24,3 +24,14 @@ This repository contains code and configuration to run large language models (LL
    ```bash
    git clone https://github.com/your-username/vLLM-Interface-Runner.git
    cd vLLM-Interface-Runner
+2. Install dependencies:
+   '''bash
+   pip install -r requirements.txt
+
+3. Start the vLLM server:
+   '''bash
+   vllm serve <model-name> --dtype auto
+
+4. Run the Jupyter notebook:
+   '''bash
+   jupyter notebook serve_model.ipynb   
